@@ -14,18 +14,26 @@ export default function Page() {
             <p className="tap-text">Click to Open 🎁</p>
 
             <div className="scene">
-              <div className="snowground"></div>
-              <div className="tree t1"></div>
-              <div className="tree t2"></div>
+              <div className="scene">
+  <div className="snow"></div>
 
-              <div className="chimney">
-                <div className="snowcap"></div>
-                <div className="santa">
-                  <div className="belt"></div>
-                  <div className="leg left-leg"></div>
-                  <div className="leg right-leg"></div>
-                </div>
-              </div>
+  <div className="trees left"></div>
+  <div className="trees right"></div>
+
+  <div className="chimney">
+    <div className="snow-top"></div>
+
+    <div className="santa-legs">
+      <div className="leg"></div>
+      <div className="leg"></div>
+    </div>
+
+    <div className="belt">
+      <div className="buckle"></div>
+    </div>
+  </div>
+</div>
+
             </div>
           </div>
         )}
@@ -38,8 +46,9 @@ export default function Page() {
             <p><b>Dear, Anmol Sir </b></p>
 
             <p>
-             I really appreciate your helping nature. You are always supportive and kind.
-              I have learned a lot from you. You motivate me and make the workplace feel positive.
+              I really appreciate your helping nature. You are always supportive and kind.
+              I have learned a lot from you.
+                You motivate me and make the workplace feel positive.
             </p>
 
             <p>
